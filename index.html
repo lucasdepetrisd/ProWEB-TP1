@@ -5,25 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <style>
+        .navbar-nav {
+            margin-left: auto;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link rel="stylesheet" href="./css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+    <title>Inicio</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-              <div class="container">
-                <a class="navbar-brand" href="#">Inicio</a>
-                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                    aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#">Proyecto</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" aria-current="page">Inicio <span class="visually-hidden">(current)</span></a>
+                            <a class="nav-link active" href="#" aria-current="page">Inicio <span
+                                    class="visually-hidden">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./productos.html">Productos</a>
@@ -33,12 +48,126 @@
                         </li>
                     </ul>
                 </div>
-          </div>
+            </div>
         </nav>
-        
+        <nav class="breadcrumb border">
+            <a class="breadcrumb-item m-auto" aria-current="page">Inicio /</a>
+        </nav>
+
     </header>
 
-    <main>
+    <main class="container">
+
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="First slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="holder.js/900x500/auto/#777:#555/text:First slide" class="w-100 d-block"
+                        alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="holder.js/900x500/auto/#666:#444/text:Second slide" class="w-100 d-block"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="holder.js/900x500/auto/#666:#444/text:Third slide" class="w-100 d-block"
+                        alt="Third slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="First slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="holder.js/900x500/auto/#777:#555/text:First slide" class="w-100 d-block"
+                        alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="holder.js/900x500/auto/#666:#444/text:Second slide" class="w-100 d-block"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="holder.js/900x500/auto/#666:#444/text:Third slide" class="w-100 d-block"
+                        alt="Third slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <h2 id="titulo">Proyecto</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia numquam nam, non ipsam explicabo atque!
+            Reprehenderit nihil ut iusto repellendus voluptate, aliquid qui, consequatur nisi consequuntur ad aperiam
+            corporis modi.</p>
+
+        <section class="row">
+            <div class="card col-4">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card col-4">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card col-4">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+                <li class="nav-item"><a href="/productos.html" class="nav-link px-2 text-muted">Productos</a></li>
+                <li class="nav-item"><a href="/nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
+              </ul>
+              <p class="text-center text-muted">LOGO 2022 Proyecto</p>
+            </footer>
+          </div>
 
     </main>
 
