@@ -9,3 +9,9 @@ h2 {
 .navbar-nav {
     margin-left: auto;
 }
+
+.carousel-inner div {
+    height: 325px;
+    object-fit: cover;
+
+}
