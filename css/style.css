@@ -14,4 +14,7 @@ h2 {
     height: 325px;
     object-fit: cover;
 
+.table tbody tr:hover {
+    font-weight: bold;
+    color: #725AC1 !important;
 }
