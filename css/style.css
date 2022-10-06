@@ -9,3 +9,8 @@ h2 {
 .navbar-nav {
     margin-left: auto;
 }
+
+.table tbody tr:hover {
+    font-weight: bold;
+    color: #725AC1 !important;
+}
