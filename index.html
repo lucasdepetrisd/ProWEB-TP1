@@ -22,7 +22,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-md bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="img/logo.svg" alt="Logo" width="100" height="24" class="d-inline-block align-text-top">
@@ -57,114 +57,139 @@
 
     <main class="container">
 
-        <div class="row">
-            <div id="carouselId" class="carousel slide col-6" data-bs-ride="carousel">
+        <div class="row row-cols-1 row-cols-lg-2">
+            <div id="carousel1" class="carousel slide col" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                    <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true"
                         aria-label="First slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                    <li data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    <li data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Third slide"></li>
                 </ol>
-                <div class="carousel-inner" role="listbox">
+                <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/premiumext.png"
-                            class="w-100 d-block" alt="Nuestro local">
+                        <img src="img/premiumext.png" class="w-100 d-block" alt="Nuestro local">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/premiumext2.png"
-                            class="w-100 d-block" alt="Nuestro local">
+                        <img src="img/premiumext2.png" class="w-100 d-block" alt="Nuestro local">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/premiumext3.jpg"
-                            class="w-100 d-block" alt="Nuestro local">
+                        <img src="img/premiumext3.jpg" class="w-100 d-block" alt="Nuestro local">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Siguiente</span>
                 </button>
             </div>
 
-            <div id="carouselId1" class="carousel slide col-6" data-bs-ride="carousel">
+            <div id="carousel2" class="carousel slide col d-none d-sm-block" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-bs-target="#carouselId1" data-bs-slide-to="0" class="active" aria-current="true"
+                    <li data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true"
                         aria-label="First slide"></li>
-                    <li data-bs-target="#carouselId1" data-bs-slide-to="1" aria-label="Second slide"></li>
-                    <li data-bs-target="#carouselId1" data-bs-slide-to="2" aria-label="Third slide"></li>
+                    <li data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    <li data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Third slide"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <img src="img/premiumint1.png"
-                            class="w-100 d-block" alt="Nuestro local">
+                    <div class="carousel-item active" data-bs-interval="1000000">
+                        <img src="img/premiumint1.png" class="w-100 d-block" alt="Nuestro local">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/premiumint2.jpg"
-                            class="w-100 d-block" alt="Nuestro local">
+                        <img src="img/premiumint2.jpg" class="w-100 d-block" alt="Nuestro local">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/premiumext.png"
-                            class="w-100 d-block" alt="Nuestro local">
+                        <img src="img/premiumext.png" class="w-100 d-block" alt="Nuestro local">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId1" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselId1" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Siguiente</span>
                 </button>
             </div>
-
         </div>
+
+        
 
 
         <h2 class="mt-4">El auto de tus sueños al precio de tus sueños</h2>
-        <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia numquam nam, non ipsam explicabo atque!
+        <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia numquam nam, non ipsam
+            explicabo atque!
             Reprehenderit nihil ut iusto repellendus voluptate, aliquid qui, consequatur nisi consequuntur ad aperiam
             corporis modi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo cum vitae sint et tenetur
             cumque sequi provident, deleniti porro placeat incidunt qui iusto culpa, corporis blanditiis, sunt fugiat
             dolores omnis?</p>
 
-        <section class="row">
-            <div class="col-4">
-                <div class="card">
+        <section class="row row-cols-md-2 row-cols-lg-3 g-3">
+            <div class="col-lg-4 col-md-12">
+                <div class="card h-100">
                     <img class="card-img-top img-responsive" src="img/zentorno2.png" id="img-responsive" alt="Zentorno">
                     <div class="card-body">
                         <h5 class="card-title">Zentorno</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Superdeportivo</h6>
-                        <p class="card-text">Gracias a este supercoche chillón y vulgar de Pegassi, podrás asegurarte de que el 99% restante se entere de que vas en un vehículo que no pueden comprar. Terriblemente rápido y con un interior de alta tecnología, es lo más parecido a un jet sobre ruedas. Lo único mas elevado que su velocidad máxima es la cuota del seguro.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <p class="card-text">Gracias a este supercoche chillón y vulgar de Pegassi, podrás asegurarte de
+                            que el 99% restante se entere de que vas en un vehículo que no pueden comprar. Terriblemente
+                            rápido y con un interior de alta tecnología, es lo más parecido a un jet sobre ruedas. Lo
+                            único mas elevado que su velocidad máxima es la cuota del seguro.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card">
+            <div class="col-sm-12 col-lg-4">
+                <div class="card h-100">
                     <img class="card-img-top img-responsive" src="img/cheetah.png" id="img-responsive" alt="Cheetah">
                     <div class="card-body">
                         <h5 class="card-title">Cheetah
                         </h5>
                         <h6 class="card-subtitle mb-2 text-muted">Superdeportivo</h6>
-                        <p class="card-text">Olvida los últimos 50 años de avances tecnológicos y retrocede a la época dorada de la conducción, antes de los cinturones de seguridad, las tasas de alcohol en sangre, los frenos antibloqueo y los sistemas GPS castrantes con molestas voces femeninas. Esta maravilla de la ingeniería italiana, un prototipo de deportivo fabricado por Grotti a principios de los 70, hará de todo una exageración. Igual que los italianos.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <p class="card-text">Olvida los últimos 50 años de avances tecnológicos y retrocede a la época
+                            dorada de la conducción, antes de los cinturones de seguridad, las tasas de alcohol en
+                            sangre, los frenos antibloqueo y los sistemas GPS castrantes con molestas voces femeninas.
+                            Esta maravilla de la ingeniería italiana, un prototipo de deportivo fabricado por Grotti a
+                            principios de los 70, hará de todo una exageración. Igual que los italianos.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card">
+            <div class="col-sm-12 col-lg-4">
+                <div class="card h-100">
                     <img class="card-img-top img-responsive" src="img/osiris.png" id="img-responsive" alt="Osiris">
                     <div class="card-body">
                         <h5 class="card-title">Osiris</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Superdeportivo</h6>
-                        <p class="card-text">Los conductores del Osiris presumen de tener la esperanza de vida más corta de entre todos los consumidores de América. Viven (brevemente) en un mundo de riquezas de otro tiempo e ingeniería hipermoderna. Los 0.3 segundos entre que salen de la agencia y llegan a la primera esquina son los instantes más borrosos y emocionantes de sus cortísimas vidas. Solo los absurdamente ricos deben apuntarse a la lista de espera.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <p class="card-text">Los conductores del Osiris presumen de tener la esperanza de vida más corta
+                            de entre todos los consumidores de América. Viven (brevemente) en un mundo de riquezas de
+                            otro tiempo e ingeniería hipermoderna. Los 0.3 segundos entre que salen de la agencia y
+                            llegan a la primera esquina son los instantes más borrosos y emocionantes de sus cortísimas
+                            vidas. Solo los absurdamente ricos deben apuntarse a la lista de espera.</p>
                     </div>
                 </div>
             </div>
@@ -172,7 +197,7 @@
 
     </main>
     <div class="container-fluid">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-light">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                     <svg class="bi" width="30" height="24">

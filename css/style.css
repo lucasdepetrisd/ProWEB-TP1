@@ -6,11 +6,15 @@ h2 {
     font-weight: 800;
 }
 
+main {
+    min-height: 600px;
+}
+
 .navbar-nav {
     margin-left: auto;
 }
 
-.carousel-inner div {
+.carousel-item {
     height: 325px;
     object-fit: cover;
 }
@@ -19,3 +23,12 @@ h2 {
     font-weight: bold;
     color: #725AC1 !important;
 }
+
+
+@media screen and (max-width: 767px) {
+    .carousel-item{
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
