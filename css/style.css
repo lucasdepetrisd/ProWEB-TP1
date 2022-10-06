@@ -6,6 +6,10 @@ h2 {
     font-weight: 800;
 }
 
+main {
+    min-height: 600px;
+}
+
 .navbar-nav {
     margin-left: auto;
 }
@@ -15,3 +19,9 @@ h2 {
     object-fit: cover;
 
 }
+
+.carousel-caption {
+    top: 58%;
+    bottom: auto;
+}
+
