@@ -14,14 +14,16 @@ main {
     margin-left: auto;
 }
 
-.carousel-inner div {
+.carousel-item {
     height: 325px;
     object-fit: cover;
 
 }
-
-.carousel-caption {
-    top: 58%;
-    bottom: auto;
+@media screen and (max-width: 767px) {
+    .carousel-item{
+        height: 200px;
+        object-fit: cover;
+    }
 }
+
 
