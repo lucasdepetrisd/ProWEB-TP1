@@ -2,8 +2,9 @@
     font-family: 'Sora', sans-serif;
 }
 
-h2 {
+h1, h2 {
     font-weight: 800;
+    color: rgb(241, 241, 241);
 }
 
 main {
@@ -14,16 +15,23 @@ main {
     margin-left: auto;
 }
 
+.active a {
+    color: red;
+}
+
+.breadcrumb-item a{
+    color: red;
+}
+
 .carousel-item {
     height: 325px;
     object-fit: cover;
 }
 
-.table tbody tr:hover{
+.table tbody tr:hover {
     font-weight: bold;
-    color: #725AC1 !important;
+    color: #c15a5a !important;
 }
-
 
 @media screen and (max-width: 767px) {
     .carousel-item{
@@ -32,3 +40,15 @@ main {
     }
 }
 
+.cuerpo {
+    background-color: rgb(71, 13, 13);
+    color: rgb(255, 148, 148);
+}
+
+.card p, .card h5{
+    color: rgb(255, 148, 148);
+}
+
+.table-group-divider{
+    border-color: rgb(71, 13, 13);
+}
