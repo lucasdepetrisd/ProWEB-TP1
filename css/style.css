@@ -7,6 +7,12 @@ h1, h2 {
     color: rgb(241, 241, 241);
 }
 
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
 main {
     min-height: 600px;
 }
